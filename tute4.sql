@@ -1,8 +1,3 @@
--- IT23192850
--- Nadun M.A
--- 3Y S1 WE 4.2
--- practical 4
-
 ALTER TYPE stock_t ADD (
   MEMBER FUNCTION yield RETURN NUMBER,
   MEMBER FUNCTION price_usd(rate NUMBER) RETURN NUMBER,
