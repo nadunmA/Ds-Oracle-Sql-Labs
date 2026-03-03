@@ -1,8 +1,3 @@
--- IT23192850
--- Nadun M.A
--- 3Y S1 WE 4.2
--- practical 5
-
 SET SERVEROUTPUT ON;
 -- Exercise 01
 DECLARE
@@ -188,4 +183,5 @@ END;
 SELECT clno, company, pdate, qty
 FROM purchase
 ORDER BY pdate;
+
 ROLLBACK;
